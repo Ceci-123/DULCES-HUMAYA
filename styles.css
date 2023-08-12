@@ -1,7 +1,45 @@
-.fondito{
-    background-image: "./IMAGENES/Central/imagenCentral.png";
+.fondoEncabezado{
+    background-image: url("./IMAGENES/Central/imagenCentral.png");
+    color: white;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .alinear{
-    
+    color: white;
+ 
+}
+
+.tradicional{
+    background-image: url("./IMAGENES/Productos/Producto1.png");
+    color: white;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+.sinAzucar{
+    background-image: url("./IMAGENES/Productos/Producto2.png");
+    color: white;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.choconutt{
+    background-image: url("./IMAGENES/Productos/Producto3.png");
+    color: white;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.maicena{
+    background-image: url("./IMAGENES/Productos/Producto4.png");
+    color: white;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
