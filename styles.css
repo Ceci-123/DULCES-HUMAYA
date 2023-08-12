@@ -1,45 +1,68 @@
-.fondoEncabezado{
+header{
     background-image: url("./IMAGENES/Central/imagenCentral.png");
     color: white;
     height: 500px;
+    width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+.transparente{
+    margin-top: 2px solid black;
+    height: 80px;
+    width: 100%;
+   padding: 10px;
+}
+.productos{
+    height: 80px;
+    width: 100%;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+.fondoEncabezado{
+    display: flex;
+    justify-content: flex-end;
+}
 .alinear{
     color: white;
- 
+    display: flex;
+    width: 50%;
+     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-right: 50px;
+    padding-left: 50px;
 }
 
 .tradicional{
-    background-image: url("./IMAGENES/Productos/Producto1.png");
+ 
     color: white;
-    height: 500px;
-    background-repeat: no-repeat;
-    background-size: cover;
+  display: flex;
   
 }
 
 .sinAzucar{
-    background-image: url("./IMAGENES/Productos/Producto2.png");
+ 
     color: white;
-    height: 500px;
-    background-repeat: no-repeat;
-    background-size: cover;
+  display: flex;
 }
 
 .choconutt{
-    background-image: url("./IMAGENES/Productos/Producto3.png");
     color: white;
-    height: 500px;
-    background-repeat: no-repeat;
-    background-size: cover;
+  display: flex;
 }
 
 .maicena{
-    background-image: url("./IMAGENES/Productos/Producto4.png");
     color: white;
-    height: 500px;
-    background-repeat: no-repeat;
-    background-size: cover;
+    display: flex;
+}
+
+.mediaPantalla{
+    width: 50%;
+    background-color: black;
+}
+.brown{
+    background-color: bisque;
 }
