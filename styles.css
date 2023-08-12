@@ -62,7 +62,6 @@ header{
 
 .maicena{
     color: white;
-    display: flex;
     height: 400px;
     background-image: url(./IMAGENES/Productos/Producto4b.png);
 }
@@ -102,4 +101,21 @@ header{
   .masInfo{
     border: 2px solid bisque;
    
+  }
+
+  .maicenaTexto{
+    width: 30%;
+  }
+
+  .masInfoMaicena{
+    border: 2px solid black;
+   color: black;
+   background-color: bisque;
+  }
+
+  .tresIconos{
+    background-image: url(./IMAGENES/Logo/tresIconos.jpeg);
+    color:#fff;
+    height: 400px;
+
   }
