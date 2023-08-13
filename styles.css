@@ -119,3 +119,22 @@ header{
     height: 400px;
 
   }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    min-width: 200px;
+    margin: 0 auto;
+}
+
+label, input, textarea {
+    margin-bottom: 10px;
+}
+
+#contacto{
+    background-image: url(./IMAGENES/Productos/Producto4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
